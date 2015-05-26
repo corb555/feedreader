@@ -15,7 +15,7 @@ This shows Jasmine test cases for a web-based application that reads RSS feeds.
 1. Ensures the menu element is hidden by default. 
 1. Ensures the menu changes visibility when the menu icon is clicked. This test has two expectations: does the menu display when clicked and does it hide when clicked again.
 
-** Load Feed **
+**Load Feed**
 
 1. Ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Since, loadFeed() is asynchronous this test wil uses Jasmine's beforeEach and asynchronous done() function.
 1. Ensures when a new feed is loaded by the loadFeed function that the content actually changes. 
